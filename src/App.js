@@ -1,24 +1,21 @@
-import logo from './logo.svg';
+import React from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import './App.css';
+import Login from "./components/login";
+import Home from "./components/home";
+import Orders from "./components/orders";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <BrowserRouter basename="figmafirebase">
+        <Routes>
+          <Route path="/" element={<Login/>}></Route>
+          <Route path="home" element={<Home/>}></Route>
+          <Route path="orders" element={<Orders/>}></Route>
+        </Routes>
+      </BrowserRouter>
+    </>
   );
 }
 
