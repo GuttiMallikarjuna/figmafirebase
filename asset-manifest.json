@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/figmafirebase/static/css/main.f0cb5781.css",
-    "main.js": "/figmafirebase/static/js/main.ba0359c9.js",
+    "main.css": "/figmafirebase/static/css/main.0070a673.css",
+    "main.js": "/figmafirebase/static/js/main.3b4fae20.js",
     "static/js/453.7bb49f67.chunk.js": "/figmafirebase/static/js/453.7bb49f67.chunk.js",
     "static/media/homeimg.jpeg": "/figmafirebase/static/media/homeimg.afd1adae51389b40cc13.jpeg",
     "static/media/loginbackimg.jpeg": "/figmafirebase/static/media/loginbackimg.42af1870e8eee4d294f8.jpeg",
     "index.html": "/figmafirebase/index.html",
-    "main.f0cb5781.css.map": "/figmafirebase/static/css/main.f0cb5781.css.map",
-    "main.ba0359c9.js.map": "/figmafirebase/static/js/main.ba0359c9.js.map",
+    "main.0070a673.css.map": "/figmafirebase/static/css/main.0070a673.css.map",
+    "main.3b4fae20.js.map": "/figmafirebase/static/js/main.3b4fae20.js.map",
     "453.7bb49f67.chunk.js.map": "/figmafirebase/static/js/453.7bb49f67.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f0cb5781.css",
-    "static/js/main.ba0359c9.js"
+    "static/css/main.0070a673.css",
+    "static/js/main.3b4fae20.js"
   ]
 }
